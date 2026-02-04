@@ -1,0 +1,22 @@
+import { createContext, useState, useEffect } from "react";
+import languages, { languageList } from "../assets/lang/lang";
+
+const LangContext = createContext();
+
+export const LangProvider = ({ children }) => {
+  const [lang, setLang] = useState(languageList[0]);
+
+  const texts = languages[lang];
+
+  useEffect(() => {
+    document.documentElement.dir = texts.dir;
+  }, [texts]);
+
+  return (
+    <LangContext.Provider value={{ lang, setLang, texts }}>
+      {children}
+    </LangContext.Provider>
+  );
+};
+
+export default LangContext;
