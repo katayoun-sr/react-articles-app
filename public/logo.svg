@@ -1,0 +1,30 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 220 48"
+  role="img"
+  aria-label="Contentify logo"
+>
+  <rect x="0" y="0" width="48" height="48" rx="12" fill="#6366f1"/>
+  <text
+    x="24"
+    y="33"
+    text-anchor="middle"
+    font-size="28"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="700"
+    fill="#ffffff"
+  >
+    C
+  </text>
+
+  <text
+    x="64"
+    y="32"
+    font-size="22"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="600"
+    fill="#ffffff"
+  >
+    Contentify
+  </text>
+</svg>
