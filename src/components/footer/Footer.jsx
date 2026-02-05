@@ -5,10 +5,12 @@ function Footer() {
   const lang = texts.footer;
 
   return (
-    <div className="h-80 bg-polet-200 ">
-      <h1>{lang.description}</h1>
-    </div>
-  )
+    <footer className="h-60 bg-blue-400 w-full fixed bottom-0 text-white ">
+      <div className="max-w-7xl m-auto flex items-center justify-center h-full">
+        <h1 className="text-2xl font-bold">{lang.description}</h1>
+      </div>
+    </footer>
+  );
 }
 
 export default Footer;
