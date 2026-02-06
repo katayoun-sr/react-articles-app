@@ -4,7 +4,7 @@
   role="img"
   aria-label="Contentify logo"
 >
-  <rect x="0" y="0" width="48" height="48" rx="12" fill="#6366f1"/>
+  <rect x="0" y="0" width="48" height="48" rx="12" fill="#59168b"/>
   <text
     x="24"
     y="33"
@@ -12,7 +12,7 @@
     font-size="28"
     font-family="Arial, Helvetica, sans-serif"
     font-weight="700"
-    fill="#ffffff"
+    fill="#fff"
   >
     C
   </text>
@@ -23,7 +23,7 @@
     font-size="22"
     font-family="Arial, Helvetica, sans-serif"
     font-weight="600"
-    fill="#ffffff"
+    fill="#59168b"
   >
     Contentify
   </text>
