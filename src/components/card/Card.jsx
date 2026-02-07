@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import articleImage from "../../assets/images/article.jpg";
 import useLang from "../../hooks/useLang";
 
-function Card() {
+function Card({article}) {
   const {texts} = useLang()
   const lang = texts.card
   return (
