@@ -7,12 +7,13 @@ export const useGetArticles = () => {
   const { show, hide } = useLoading();
 
   useEffect(() => {
-    show()
+    show();
     getArticles()
-      .then((res) => setArticles(res.data))
-      .catch((err) => console.log("error:", err))
+      .then(res => setArticles(res.data))
+      .catch(err => console.log("error:", err))
       .finally(() => hide());
-  }, [show, hide]);
+}, []);
+
 
   return { articles};
 };
