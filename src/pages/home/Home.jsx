@@ -2,7 +2,7 @@ import Card from "../../components/card/Card";
 import { useGetArticles } from "../../hooks/useGetArticles";
 
 function Home() {
-  const { articles, loading } = useGetArticles();
+  const { articles} = useGetArticles();
 
   return (
     <div className="container ">
